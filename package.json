@@ -1,0 +1,30 @@
+{
+    "name": "one-dark-operator-theme",
+    "displayName": "One Dark Operator Theme",
+    "description": "Atom's One Dark theme optimized for use with Operator Mono",
+    "version": "0.0.1",
+    "publisher": "kvnxush",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "One Dark Operator Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/One Dark Operator Theme-color-theme.json"
+            }
+        ]
+    },
+    "keywords": [
+		"vscode",
+		"theme",
+		"onedark",
+		"operator"
+	],
+	"author": "Kevin Ushijima <kju204@gmail.com>",
+	"license": "MIT"
+}
